@@ -1,0 +1,12 @@
+echo "# NCDOIDataVizBackups" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/alexandralin9/NCDOIDataVizBackups.git
+git push -u origin main
+<ul>
+<li>Under Mike Causey, rates in {{ county }} County have risen by <strong>{{ _2017_2020_ncrb_rate }}%.</strong></li> Inflation over the same period was 
+<li>The North Carolina Rate Bureau has requested an additional maximum rate hike of <strong>{{ _2024_ncrb_proposed_rate_increase }}%</strong> for this county.</li>
+<li><strong>{{ ctr_policy_premium_2023 }}%</strong> of county residents are subject to Consent to Rate notices.</li>
+</ul>
